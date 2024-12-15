@@ -4,19 +4,19 @@
 }
 
 body{
-    height: 100vh;
-    background-color: rgba(1, 23, 64, 1);
-    color: white;
+    height: 10vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: aliceblue;
 }
 
-.pagina01{
+.conteudo{
     display: flex;
     align-items: center;
-    display: flex;
-    align-items: center;
-
+    justify-content: space-between;
+    margin: 10%;
 }
 
-.pagina01__seção{
-
+.seção_inicial{
+    width: 650px;
 }
