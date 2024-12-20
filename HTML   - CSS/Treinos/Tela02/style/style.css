@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --Cor-principal: #FF9E9E;
+    --Cor-secundaria: #F5F5F5;
+    --Fonte-titulo: "Montserrat", serif;
+    --Fonte-texto: "Krona One", serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--Cor-secundaria);
+    color: #f6f6f6;
+    scroll-behavior: smooth;
+}
+
+.cabecalho{
+    background-color: var(--Cor-principal);
+    padding: 2% 15% ;
+}
+
+.cabecalho__links{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__links__link{
+    text-decoration: none;
+    color: var(--Cor-secundaria);
+    font-family: var(--Fonte-titulo);
+    font-weight: 600;
+}
+
+.pagina{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.apresentacao__secao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10% 20%;
+}
+
+.apresentacao__secao__titulo{
+    width: 618px;
+    font-family: var(--Fonte-titulo);
+    color: var(--Cor-principal);
+    font-size: 36px;
+    font-family: var(--Fonte-titulo);
+}
+
+.carta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.carta__titulo{
+    font-family: var(--Fonte-titulo);
+    color: var(--Cor-principal);
+    font-size: 36px;
+}
+
+.carta__paragrafo{
+    font-family: var(--Fonte-texto);
+    color: var(--Cor-principal);
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0% 10%;
+}
+
+.secao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.secao__titulo{
+    font-family: var(--Fonte-titulo);
+    color: var(--Cor-principal);
+    font-size: 36px;
+}
+
+.secao__fotos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding: 20px;
+}
+
+.secao__fotos img { 
+    width: 100%; 
+    height: auto; 
+}
+
+.rodape{
+    background-color: var(--Cor-principal);
+    text-align: center;
+    padding: 2% 0%;
+}
+
+.rodape__paragrafo{
+    font-family: var(---Fonte-titulo);
+    font-size: 15px;
+    font-weight: 400;
+}

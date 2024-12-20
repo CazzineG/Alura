@@ -78,7 +78,7 @@ body{
 
 .apresentacao__links__link{
     margin-top: 5%;
-    : 2px solid var(--cor_tercearia);
+    border: 2px solid var(--cor_tercearia);
     width: 378px;
     text-align: center;
     -radius: 8px;
