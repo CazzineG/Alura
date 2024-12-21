@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 10%;
+}
+
+.cabecalho__links{
+    display: flex;
+    gap: 60px;
+}
+
+.cabecalho__links a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: "Montserrat", serif;
+    transition: .1s;
+}
+
+.cabecalho__links a:hover{
+    color: #E85F19;
+    font-weight: 600;
+    transition: .1s;
+}
+
+.cabecalho__botao{
+    background-color: #E85F19;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px #E85F19;
+    transition: .1s;
+    text-align: center;
+    font-family: "Krona One", sans-serif;
+    font-weight: 200;
+}
+
+.cabecalho__botao:hover{
+    background-color: #FFFFFF;
+    color: #E85F19;
+    padding: 11px 21px;
+    font-size: 1.01em;
+    transition: .1s;
+    font-weight: 400;
+    box-shadow: 0px 2px 15px #e85e1973;
+    border: 1px solid  #e85e1991;
+}
+
+.main{
+    margin: 0% 10%;
+}
+
+.principal{
+    display: flex;
+    height: 100vh;
+    gap: 80px;
+}
+
+.principal img{
+    width: 70%;
+    height: 50%;
+}
+
+.principal__textos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: "Montserrat", serif;
+    font-size: 24px;
+}
+
+.principal__textos__titulo{
+    font-family: "Krona One", sans-serif;
+    width: 50%;
+}
+
+.destaque{
+    color: #E85F19;
+}
+
+.principal__explore{
+    display: flex;
+    gap: 40px;
+    padding-top: 5%;
+}
+
+.principal__explore__botao{
+    padding: 20px;
+    border: 2px solid black;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.principal__explore__titulo{
+    font-size: 14px;
+}
+
+.principal__explore img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #e85e199a;
+    transition: .1s;
+}
+
+.principal__explore img:hover{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 10px #E85F19;
+    transition: .1s;
+}
