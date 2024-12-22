@@ -3,11 +3,12 @@
 html, body{
     display: flex;
     flex-direction: column;
-    gap: 80px;
     margin: 0;
     padding: 0;
     background-color: #FFFFFF;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    gap: 90px
 }
 
 .cabecalho{
@@ -26,7 +27,6 @@ html, body{
     text-decoration: none;
     color: black;
     font-size: 18px;
-    font-family: "Montserrat", serif;
     transition: .1s;
 }
 
@@ -60,32 +60,33 @@ html, body{
     border: 1px solid  #e85e1991;
 }
 
+p{
+    font-size: 18px;
+}
+
 .main{
     margin: 0% 10%;
 }
 
 .principal{
     display: flex;
-    height: 100vh;
-    gap: 80px;
 }
 
 .principal img{
-    width: 70%;
-    height: 50%;
+    width: 40%;
+    height: 10%;
 }
 
 .principal__textos{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    font-family: "Montserrat", serif;
     font-size: 24px;
 }
 
 .principal__textos__titulo{
     font-family: "Krona One", sans-serif;
-    width: 50%;
+    width: 70%;
 }
 
 .destaque{
@@ -122,5 +123,123 @@ html, body{
     height: 52px;
     border-radius: 50%;
     box-shadow: 0px 2px 10px #E85F19;
+    transition: .1s;
+}
+
+.painel02{
+    display: flex;
+    flex-direction: column;
+    font-family: "Krona One", sans-serif;
+    align-items: center;
+    gap: 80px;
+    transition: .1s;
+}
+
+.painel02__servicos__servico:hover{
+    border-radius: 8% 8%;
+    transition: .1s;
+    box-shadow: 0px 0px 20px #e85e196c;
+}
+
+.painel02__textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.painel02__paragrafo{
+    font-family: "Montserrat" , sans-serif;
+    text-align: center;
+}
+
+.painel02__servicos{
+    display: flex;
+    gap: 30px;
+}
+
+.painel02__servicos__servico{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.288);
+    border-radius: 10px;
+    padding: 30px;
+    overflow: hidden;
+    transition: .1s;
+}
+
+.painel02__servicos__servico img{
+    width: 25%;
+    align-items: center;
+}
+
+.painel02__servicos__servico__paragrafo{
+    font-family: "Montserrat" , sans-serif;
+}
+
+.Saiba__mais{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.painel03{
+    margin-top: 80px;
+}
+
+.painel03__container{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.painel03 img{
+    width: 50%;
+}
+
+.painel03__container__titulo{
+    font-family: "Krona One", sans-serif;
+    font-size: 26px;
+}
+
+.painel03__container__div{
+    display: flex;
+    gap: 60px;
+}
+
+.painel03__conteiner__conteudo{
+    margin: 0% 10% 0% 0%;
+}
+
+.painel03__container__lista__numeros{
+    border-radius: 50%;
+    background-color: #E85F19;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding: 2%;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.painel03__container__botoes{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.painel03__botao{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #E85F19;
+    border-radius: 10px;
+    border: 2px solid #E85F19;
+    text-align: center;
+    font-family: "Krona One", sans-serif;
+    font-weight: 200;
+    transition: .1s;
+}
+
+.painel03__botao:hover{
+    color: white;
+    background-color: #E85F19;
     transition: .1s;
 }
