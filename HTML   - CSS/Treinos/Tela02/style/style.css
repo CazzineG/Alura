@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
@@ -15,7 +14,6 @@
 }
 
 html, body{
-    height: 100vh;
     box-sizing: border-box;
     background-color: var(--Cor-secundaria);
     color: #f6f6f6;
@@ -24,7 +22,52 @@ html, body{
 
 .cabecalho{
     background-color: var(--Cor-principal);
-    padding: 2% 15% ;
+    padding: 2% 15%;
+}
+
+@media (max-width: 1200px){
+    .pagina{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cabecalho__links{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .apresentacao__secao{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 98%;
+        gap: 40px;
+        font-size: 1rem;
+    }
+
+    .apresentacao__secao img{
+        width: 50%;
+    }
+
+    .apresentacao__secao__titulo{
+        width: auto;
+        text-align: center;
+    }
+
+    .carta__titulo{
+        font-size: 0.7rem;
+    }
+
+    .secao__titulo{
+        font-size: 0.7rem;
+    }
+
+    .carta__paragrafo{
+
+        text-align: justify;
+    }
 }
 
 .cabecalho__links{
@@ -53,11 +96,10 @@ html, body{
 }
 
 .apresentacao__secao__titulo{
-    width: 618px;
+    width: 50%;
     font-family: var(--Fonte-titulo);
     color: var(--Cor-principal);
-    font-size: 36px;
-    font-family: var(--Fonte-titulo);
+    font-size: 2em;
 }
 
 .carta{
@@ -70,13 +112,13 @@ html, body{
 .carta__titulo{
     font-family: var(--Fonte-titulo);
     color: var(--Cor-principal);
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 .carta__paragrafo{
     font-family: var(--Fonte-texto);
     color: var(--Cor-principal);
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 300;
     margin: 0% 10%;
 }
@@ -91,7 +133,7 @@ html, body{
 .secao__titulo{
     font-family: var(--Fonte-titulo);
     color: var(--Cor-principal);
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 .secao__fotos{
@@ -113,7 +155,7 @@ html, body{
 }
 
 .rodape__paragrafo{
-    font-family: var(---Fonte-titulo);
-    font-size: 15px;
+    font-family: var(--Fonte-titulo);
+    font-size: 0.94rem;
     font-weight: 400;
 }

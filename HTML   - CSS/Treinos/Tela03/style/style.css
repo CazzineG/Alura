@@ -53,12 +53,12 @@ html, body {
 }
 
 .apresentacao_header__titulo{
-    font-size: 34px;
+    font-size: 2.13rem;
     font-weight: 700;
 }
 
 .apresentacao_header__paragrafo{
-    font-size: 18px;
+    font-size: 1.13rem;
     font-weight: 200;
 }
 
@@ -91,12 +91,12 @@ html, body {
 }
 
 .rodape__titulo{
-    font-size: 18px;
+    font-size: 1.13rem;
     font-weight: 600;
 }
 
 .rodape__paragrafo{
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .rodape__subtitulo{
@@ -197,8 +197,26 @@ html, body {
     }
     
     .produtos {
+        width: 50%;
         grid-template-columns: repeat(2, 1fr); /* 2 colunas em telas médias */
     }
+
+    .cabecalho__links{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .cabecalho__links a{
+        border: 1px 1px 1px 1px solid;  
+    }
+
+    .sobre{
+        font-size: 1rem;
+        padding: 2% 5%;
+        width: auto;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -232,5 +250,23 @@ html, body {
 
     .principal img {
         width: 100%;
+    }
+
+    .contato{
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: .8rem;
+    }
+
+    .contato__redes__div{
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    main{
+     margin-bottom: 10px;   
     }
 }

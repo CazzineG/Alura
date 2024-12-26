@@ -535,7 +535,54 @@ p{
         width: 60%;
     }
 
-    .rodape02 {
-        flex-wrap: nowrap;
+}
+
+@media (max-width: 1200px){
+    .cabecalho{
+        flex-direction: column;
+        width: 100%;
+        padding: 2%;
+        gap: 10px;
+    }
+
+    .cabecalho img{
+        width: 30%;
+    }
+
+    .cabecalho__links{
+        gap: 10px;
+    }
+
+    .cabecalho__links a{
+        font-size: .9rem;
+    }
+
+    .main{
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .principal{
+        flex-direction: column-reverse;
+    }
+
+    .painel04{
+        width: auto;
+    }
+
+    .containers{
+        width: auto;
+    }
+
+    body{
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .rodape02{
+        padding: 2%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
